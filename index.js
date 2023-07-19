@@ -4,6 +4,10 @@ index.html을 위한 javascript code
 
 console.log('index.js')
 
+function logout(username)
+{
+    
+}
 function login(username, password) {
     $.ajax({
         type : 'post',           // 타입 (get, post, put 등등)
